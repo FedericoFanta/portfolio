@@ -1,0 +1,16 @@
+{
+  "name": "Federico Fantacone",
+  "role": "Semi-Senior Full Stack Developer | .NET & Azure | Agentic AI",
+  "location": "Mar del Plata, Argentina",
+  "email": "federicofantacone1@gmail.com",
+  "phone": "+54 223 4268111",
+  "phoneHref": "+542234268111",
+  "linkedinLabel": "linkedin/federico-fantacone",
+  "linkedinUrl": "https://www.linkedin.com/in/federico-fantacone/",
+  "company": "Accenture",
+  "companyUrl": "https://www.accenture.com/",
+  "cv": {
+    "es": "/cv/federico-fantacone-cv-es.pdf",
+    "en": "/cv/federico-fantacone-cv-en.pdf"
+  }
+}

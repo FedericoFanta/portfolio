@@ -1,0 +1,29 @@
+{
+  "name": "federico-fantacone-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "typecheck": "tsc --noEmit",
+    "generate:cv": "node scripts/generate-cv.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "^1.72.0",
+    "next": "^16.4.6",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.5",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "pdf-lib": "^1.17.1",
+    "tailwindcss": "^4.3.5",
+    "typescript": "^7.0.2"
+  }
+}

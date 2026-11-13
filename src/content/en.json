@@ -1,0 +1,219 @@
+{
+  "meta": {
+    "title": "Federico Fantacone — Semi-Senior Full Stack Developer",
+    "description": "Portfolio of Federico Fantacone, Semi-Senior Full Stack Developer specialized in .NET, C# and Microsoft Azure. Experience across backend, architecture, databases and cloud infrastructure.",
+    "keywords": [
+      "Federico Fantacone",
+      "Full Stack Developer",
+      "Semi-Senior",
+      ".NET",
+      "C#",
+      "Microsoft Azure",
+      "ASP.NET",
+      "Agentic AI",
+      "Mar del Plata",
+      "Argentina"
+    ],
+    "ogLocale": "en_US",
+    "ogLocaleAlternate": "es_AR"
+  },
+  "ui": {
+    "skipToContent": "Skip to content",
+    "languageLabel": "Language",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "menuLabel": "Main navigation",
+    "externalLink": "Opens in a new tab",
+    "current": "Present",
+    "downloadCv": "Download CV",
+    "downloadCvAria": "Download Federico Fantacone's CV as a PDF",
+    "backToTop": "Back to top",
+    "placeholder": "Sample",
+    "nav": [
+      { "id": "about", "label": "About" },
+      { "id": "experience", "label": "Experience" },
+      { "id": "stack", "label": "Stack" },
+      { "id": "projects", "label": "Projects" },
+      { "id": "contact", "label": "Contact" }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Semi-Senior Full Stack Developer",
+    "greeting": "Hi, I'm",
+    "subtitle": "Semi-Senior Full Stack Developer specialized in .NET, C# and Microsoft Azure.",
+    "description": "Software developer with experience designing, building and maintaining enterprise applications. I specialize in backend development, software architecture, databases and cloud infrastructure, taking part in the full development lifecycle to build efficient, scalable and maintainable solutions.",
+    "meta": {
+      "location": "Mar del Plata, Argentina",
+      "current": "Currently at Accenture"
+    }
+  },
+  "about": {
+    "label": "About",
+    "paragraphs": [
+      "I'm a software developer with experience building enterprise applications and custom solutions.",
+      "I currently work at Accenture, contributing to projects focused on the development, maintenance and evolution of applications built with the .NET ecosystem and Microsoft Azure.",
+      "My experience spans backend, APIs, databases, service integration and cloud deployments. I'm particularly interested in building clean architectures, solving complex problems and making the most of new technologies, including Artificial Intelligence and Agentic AI solutions."
+    ],
+    "focus": [
+      "Backend & architecture",
+      "Cloud & DevOps",
+      "Artificial intelligence"
+    ]
+  },
+  "experience": {
+    "label": "Experience",
+    "items": [
+      {
+        "company": "Accenture",
+        "role": "Packaged App Development Analyst",
+        "period": "December 2022 — Present",
+        "current": true,
+        "bullets": [
+          "Design, development and maintenance of enterprise applications.",
+          "Building solutions with ASP.NET and .NET technologies.",
+          "Integration with SQL Server databases.",
+          "Deployment and release of applications on Microsoft Azure.",
+          "Working with Azure App Services, Azure Functions and cloud resources.",
+          "Integration of artificial intelligence solutions.",
+          "Migration of servers, databases and applications across environments.",
+          "Application of clean architectures and design patterns.",
+          "Collaborative work within development teams."
+        ]
+      }
+    ]
+  },
+  "stack": {
+    "label": "Stack",
+    "groups": [
+      {
+        "label": "Backend",
+        "items": [
+          "C#",
+          ".NET",
+          ".NET Core",
+          "ASP.NET",
+          "ASP.NET Core",
+          "ASP.NET MVC",
+          "REST APIs",
+          "Entity Framework",
+          "Hibernate",
+          "Microservices"
+        ]
+      },
+      {
+        "label": "Frontend",
+        "items": ["JavaScript", "React", "Razor", "HTML", "CSS"]
+      },
+      {
+        "label": "Databases",
+        "items": ["SQL Server", "SQL", "Entity Framework"]
+      },
+      {
+        "label": "Cloud & DevOps",
+        "items": [
+          "Microsoft Azure",
+          "Azure App Services",
+          "Azure Functions",
+          "Cloud Deployments",
+          "CI/CD",
+          "Azure Pipelines"
+        ]
+      },
+      {
+        "label": "Artificial intelligence",
+        "items": ["Artificial Intelligence", "Agentic AI", "AI Integration"]
+      }
+    ]
+  },
+  "projects": {
+    "label": "Projects",
+    "note": "This work sits on internal and client systems under confidentiality agreements, so I describe the kind of problem and the technologies involved without exposing data, system names or metrics.",
+    "items": [
+      {
+        "title": "This site — Portfolio and landing page template",
+        "description": "The site you are looking at: bilingual ES/EN, minimal and responsive, built from scratch with Next.js, React, TypeScript and Tailwind CSS. Content lives apart from the design in JSON files, the PDF résumé is generated from that same data, and the technical SEO is covered with canonical URLs, hreflang, sitemap, structured data and Open Graph. The same structure doubles as a base for landing pages and digital brochures: adapting texts, sections and data to another business is a matter of editing a JSON file, without touching the design.",
+        "tags": ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+        "placeholder": false
+      },
+      {
+        "title": "Benefits — Accenture",
+        "description": "Development and migration of the applications behind the benefits area: encryption components, database queries, Excel file generation and business-rule processing to produce consistent, logical results.",
+        "tags": ["C#", ".NET", "SQL Server", "Excel"],
+        "placeholder": false
+      },
+      {
+        "title": "Legacy application migration",
+        "description": "Migrated applications from Visual Basic to ASP.NET and solved client-reported issues at the logic level, building custom applications for each need.",
+        "tags": ["Visual Basic", "ASP.NET", ".NET", "SQL Server"],
+        "placeholder": false
+      },
+      {
+        "title": "Bank of America — Data processes",
+        "description": "Built jobs that query databases and process the information consumed by other applications in the ecosystem.",
+        "tags": ["C#", ".NET", "SQL Server", "Jobs"],
+        "placeholder": false
+      }
+    ]
+  },
+  "education": {
+    "label": "Education",
+    "items": [
+      {
+        "institution": "Instituto Superior de Estudios Técnicos",
+        "degree": "Programmer Analyst",
+        "period": "December 2021 — December 2024"
+      },
+      {
+        "institution": "EducaciónIT",
+        "degree": "Accenture .NET Bootcamp by Microsoft",
+        "period": "October 2022 — December 2022"
+      },
+      {
+        "institution": "Universidad Tecnológica Nacional (UTN)",
+        "degree": "Programmer",
+        "period": "2019 — 2020"
+      }
+    ]
+  },
+  "extras": {
+    "label": "Certifications & languages",
+    "certificationsLabel": "Certifications",
+    "languagesLabel": "Languages",
+    "certifications": [
+      "Agile Professional Certification",
+      "Agile Methodologies"
+    ],
+    "languages": [
+      { "name": "Spanish", "level": "Native" },
+      { "name": "English", "level": "Advanced (conversational)" }
+    ]
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Have an interesting opportunity, or just want to talk technology?",
+    "description": "I'm open to connecting and taking on new professional challenges.",
+    "cta": "Send me an email",
+    "fields": {
+      "email": "Email",
+      "linkedin": "LinkedIn",
+      "location": "Location",
+      "phone": "Phone"
+    }
+  },
+  "footer": {
+    "rights": "© 2026 Federico Fantacone",
+    "location": "Mar del Plata, Argentina"
+  },
+  "cv": {
+    "title": "Semi-Senior Full Stack Developer",
+    "subtitle": ".NET & Azure · Agentic AI",
+    "profileLabel": "Profile",
+    "profile": "Software developer with experience designing, building and maintaining enterprise applications. Specialized in backend, architecture, databases and cloud infrastructure, with a focus on .NET, C# and Microsoft Azure. I take part in the full development lifecycle to build efficient, scalable and maintainable solutions.",
+    "experienceLabel": "Professional experience",
+    "stackLabel": "Technology stack",
+    "educationLabel": "Education",
+    "certificationsLabel": "Certifications",
+    "languagesLabel": "Languages",
+    "footer": "Mar del Plata, Argentina · federicofantacone1@gmail.com · linkedin.com/in/federico-fantacone"
+  }
+}
