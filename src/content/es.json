@@ -206,14 +206,14 @@
   },
   "cv": {
     "title": "Semi-Senior Full Stack Developer",
-    "subtitle": ".NET & Azure · Agentic AI",
+    "subtitle": ".NET & Azure · Integración de IA",
     "profileLabel": "Perfil",
-    "profile": "Desarrollador de software con experiencia en el diseño, desarrollo y mantenimiento de aplicaciones empresariales. Especializado en backend, arquitectura, bases de datos e infraestructura cloud, con foco en .NET, C# y Microsoft Azure. Participo en todo el ciclo de desarrollo para construir soluciones eficientes, escalables y mantenibles.",
+    "profile": "Desarrollador .NET con casi 4 años de experiencia en el diseño, desarrollo y mantenimiento de aplicaciones empresariales. Trabajo en todo el ciclo del proyecto: análisis, desarrollo, migración de aplicaciones legacy y puesta en producción en Microsoft Azure. Mi base es el backend — C#, ASP.NET Core, APIs REST y SQL Server — con despliegues en App Services, Functions y pipelines de CI/CD.",
     "experienceLabel": "Experiencia profesional",
     "stackLabel": "Stack tecnológico",
     "educationLabel": "Formación académica",
     "certificationsLabel": "Certificaciones",
     "languagesLabel": "Idiomas",
-    "footer": "Mar del Plata, Argentina · federicofantacone1@gmail.com · linkedin.com/in/federico-fantacone"
+    "footer": "Portfolio: federicofantacone.netlify.app  ·  Mar del Plata, Argentina  ·  linkedin.com/in/federico-fantacone"
   }
 }
