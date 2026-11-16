@@ -77,6 +77,8 @@ export interface LocaleContent {
       title: string;
       description: string;
       tags: string[];
+      image?: string;
+      imagePosition?: string;
       placeholder: boolean;
     }>;
   };

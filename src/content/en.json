@@ -130,27 +130,33 @@
     "note": "This work sits on internal and client systems under confidentiality agreements, so I describe the kind of problem and the technologies involved without exposing data, system names or metrics.",
     "items": [
       {
-        "title": "This site — Portfolio and landing page template",
-        "description": "The site you are looking at: bilingual ES/EN, minimal and responsive, built from scratch with Next.js, React, TypeScript and Tailwind CSS. Content lives apart from the design in JSON files, the PDF résumé is generated from that same data, and the technical SEO is covered with canonical URLs, hreflang, sitemap, structured data and Open Graph. The same structure doubles as a base for landing pages and digital brochures: adapting texts, sections and data to another business is a matter of editing a JSON file, without touching the design.",
-        "tags": ["Next.js", "React", "TypeScript", "Tailwind CSS"],
-        "placeholder": false
-      },
-      {
         "title": "Benefits — Accenture",
         "description": "Development and migration of the applications behind the benefits area: encryption components, database queries, Excel file generation and business-rule processing to produce consistent, logical results.",
         "tags": ["C#", ".NET", "SQL Server", "Excel"],
+        "image": "/projects/benefits-accenture.webp",
+        "imagePosition": "18% 50%",
         "placeholder": false
       },
       {
         "title": "Legacy application migration",
         "description": "Migrated applications from Visual Basic to ASP.NET and solved client-reported issues at the logic level, building custom applications for each need.",
         "tags": ["Visual Basic", "ASP.NET", ".NET", "SQL Server"],
+        "image": "/projects/legacy-migration.webp",
+        "imagePosition": "left center",
         "placeholder": false
       },
       {
         "title": "Bank of America — Data processes",
         "description": "Built jobs that query databases and process the information consumed by other applications in the ecosystem.",
         "tags": ["C#", ".NET", "SQL Server", "Jobs"],
+        "image": "/projects/bank-data-processes.webp",
+        "imagePosition": "50% 50%",
+        "placeholder": false
+      },
+      {
+        "title": "This site — Portfolio and landing page template",
+        "description": "The site you are looking at: bilingual ES/EN, minimal and responsive, built from scratch with Next.js, React, TypeScript and Tailwind CSS. Content lives apart from the design in JSON files, the PDF résumé is generated from that same data, and the technical SEO is covered with canonical URLs, hreflang, sitemap, structured data and Open Graph. The same structure doubles as a base for landing pages and digital brochures: adapting texts, sections and data to another business is a matter of editing a JSON file, without touching the design.",
+        "tags": ["Next.js", "React", "TypeScript", "Tailwind CSS"],
         "placeholder": false
       }
     ]
