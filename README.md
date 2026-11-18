@@ -153,7 +153,7 @@ npm run build   # genera out/
    - **Build output directory:** `out`
    - **Node.js version:** `22` (variable de entorno `NODE_VERSION = 22`)
 4. En **Settings → Environment variables** agregá:
-   - `NEXT_PUBLIC_SITE_URL = https://federicofantacone.pages.dev`
+   - `NEXT_PUBLIC_SITE_URL = https://portfolio-zgw.pages.dev`
 5. Guardá y deployá. Cada push a `main` redeploya automáticamente.
 
 Para actualizar manualmente: `npm run build` y subí la carpeta `out/` con `npx wrangler pages deploy out` (opcional).
