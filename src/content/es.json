@@ -154,6 +154,16 @@
         "placeholder": false
       },
       {
+        "title": "Wiesing — Sitio web municipal",
+        "description": "Rediseño del sitio web de la Gemeinde Wiesing (Tirol, Austria): 61 páginas estáticas, búsqueda propia, multilingüe (DE/EN/ES) y accesibilidad integrada. Desarrollado sin frameworks ni dependencias de runtime.",
+        "tags": ["HTML5", "CSS3", "JavaScript", "Sin dependencias"],
+        "image": "/projects/wiesing.webp",
+        "imagePosition": "center",
+        "placeholder": false,
+        "href": "https://wiesing-tirol.pages.dev/",
+        "external": true
+      },
+      {
         "title": "Este sitio — Portfolio y plantilla de landing pages",
         "description": "El sitio que estás viendo: bilingüe ES/EN, minimalista y responsive, construido desde cero con Next.js, React, TypeScript y Tailwind CSS. El contenido vive separado del diseño en archivos JSON, el CV en PDF se genera desde esos mismos datos y el SEO técnico está resuelto con canonical, hreflang, sitemap, datos estructurados y Open Graph. La misma estructura funciona como base para landing pages y folletos digitales: adaptar textos, secciones y datos a otro negocio es editar un JSON, sin tocar el diseño.",
         "tags": ["Next.js", "React", "TypeScript", "Tailwind CSS"],
@@ -220,6 +230,6 @@
     "educationLabel": "Formación académica",
     "certificationsLabel": "Certificaciones",
     "languagesLabel": "Idiomas",
-    "footer": "Portfolio: federicofantacone.netlify.app  ·  Mar del Plata, Argentina  ·  linkedin.com/in/federico-fantacone"
+    "footer": "Portfolio: federicofantacone.pages.dev  ·  Mar del Plata, Argentina  ·  linkedin.com/in/federico-fantacone"
   }
 }

@@ -10,11 +10,8 @@ export default function Projects({ locale }: { locale: Locale }) {
   return (
     <Section id="projects" index="04" label={t.projects.label}>
       <div className="space-y-3">
-        {t.projects.items.map((project) => (
-          <article
-            key={project.title}
-            className="project-card group relative overflow-hidden rounded-lg border border-dashed border-line"
-          >
+        {t.projects.items.map((project) => {
+          const card = (
             <div
               className={
                 project.image ? "sm:grid sm:grid-cols-[236px_1fr]" : undefined
@@ -48,6 +45,10 @@ export default function Projects({ locale }: { locale: Locale }) {
                     <span className="inline-flex items-center rounded-full border border-line px-2 py-0.5 font-mono text-[9.5px] uppercase tracking-[0.12em] text-faint">
                       {t.ui.placeholder}
                     </span>
+                  ) : project.external ? (
+                    <span className="inline-flex items-center gap-1 font-mono text-[9.5px] uppercase tracking-[0.12em] text-faint">
+                      {t.ui.externalLink}
+                    </span>
                   ) : null}
                 </div>
                 <p className="mt-2 max-w-[58ch] text-[13.5px] leading-[1.7] text-faint">
@@ -58,8 +59,31 @@ export default function Projects({ locale }: { locale: Locale }) {
                 </p>
               </div>
             </div>
-          </article>
-        ))}
+          );
+
+          const className =
+            "project-card group relative overflow-hidden rounded-lg border border-dashed border-line";
+
+          if (project.href) {
+            return (
+              <a
+                key={project.title}
+                href={project.href}
+                target={project.external ? "_blank" : undefined}
+                rel={project.external ? "noopener noreferrer" : undefined}
+                className={`block ${className}`}
+              >
+                {card}
+              </a>
+            );
+          }
+
+          return (
+            <article key={project.title} className={className}>
+              {card}
+            </article>
+          );
+        })}
       </div>
       <p className="mt-4 max-w-[62ch] text-[11.5px] leading-[1.7] text-faint">
         {t.projects.note}

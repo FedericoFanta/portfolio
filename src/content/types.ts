@@ -80,6 +80,8 @@ export interface LocaleContent {
       image?: string;
       imagePosition?: string;
       placeholder: boolean;
+      href?: string;
+      external?: boolean;
     }>;
   };
   education: {
