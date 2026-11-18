@@ -143,22 +143,29 @@ El sitio se exporta como HTML estático (`output: "export"`), así que no necesi
 npm run build   # genera out/
 ```
 
-### Netlify (arrastrar y soltar)
+### Cloudflare Pages (Git conectado)
 
-1. Entrá a [app.netlify.com/drop](https://app.netlify.com/drop) con tu cuenta.
-2. Arrastrá la carpeta `out/` (no el proyecto entero).
-3. Netlify publica el sitio en segundos en `https://<nombre>.netlify.app`.
+1. Entrá a [dash.cloudflare.com](https://dash.cloudflare.com) → **Workers & Pages → Create → Pages → Connect to Git**.
+2. Elegí el repo `FedericoFantacone/portfolio`.
+3. Configuración de build:
+   - **Framework preset:** None
+   - **Build command:** `npm run build`
+   - **Build output directory:** `out`
+   - **Node.js version:** `22` (variable de entorno `NODE_VERSION = 22`)
+4. En **Settings → Environment variables** agregá:
+   - `NEXT_PUBLIC_SITE_URL = https://federicofantacone.pages.dev`
+5. Guardá y deployá. Cada push a `main` redeploya automáticamente.
 
-Para actualizar: `npm run build` y volvés a arrastrar `out/` en la pestaña **Deploys** del proyecto.
+Para actualizar manualmente: `npm run build` y subí la carpeta `out/` con `npx wrangler pages deploy out` (opcional).
 
-El archivo `netlify.toml` ya deja configurado `command = "npm run build"` y `publish = "out"` por si más adelante conectás un repositorio Git y querés deploy automático.
+El archivo `wrangler.toml` deja configurado `pages_build_output_dir = "out"` para deploy local/CLI.
 
 ### Dominio propio
 
-En Netlify: **Domain management → Add a domain** y seguí los registros DNS que muestra el panel. Después de definirlo, compilá con la URL final para que canonical, sitemap y Open Graph apunten ahí:
+En Cloudflare Pages: **Custom domains → Set up a custom domain** y seguí los registros DNS que muestra el panel. Después de definirlo, compilá con la URL final para que canonical, sitemap y Open Graph apunten ahí:
 
 ```bash
-# .env.production
+# .env.production (o variable en el dashboard)
 NEXT_PUBLIC_SITE_URL=https://federicofantacone.com.ar
 ```
 
