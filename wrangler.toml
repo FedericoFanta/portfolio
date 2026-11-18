@@ -1,6 +1,6 @@
 # Configuración para Cloudflare Pages (deploy estático).
 # El build se ejecuta con `npm run build` y publica la carpeta `out/`.
-name = "portfolio-zgw"
+name = "federicofantacone"
 pages_build_output_dir = "out"
 compatibility_date = "2026-01-01"
 
