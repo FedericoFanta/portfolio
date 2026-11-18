@@ -146,7 +146,7 @@ npm run build   # genera out/
 ### Cloudflare Pages (Git conectado)
 
 1. Entrá a [dash.cloudflare.com](https://dash.cloudflare.com) → **Workers & Pages → Create → Pages → Connect to Git**.
-2. Elegí el repo `FedericoFantacone/portfolio`.
+2. Elegí el repo `FedericoFantacone/federicofantacone`.
 3. Configuración de build:
    - **Framework preset:** None
    - **Build command:** `npm run build`
